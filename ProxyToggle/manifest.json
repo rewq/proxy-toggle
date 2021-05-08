@@ -1,0 +1,23 @@
+{
+
+  "description": "Text proxy extension",
+  "manifest_version": 2,
+  "name": "proxy-demo",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "proxy"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon-off.png",
+      "32": "icons/icon-off.png"
+    }
+  }
+
+}
